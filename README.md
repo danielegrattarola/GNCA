@@ -7,6 +7,20 @@ This code implements the experiments from the NeurIPS 2021 paper:
 **"Learning Graph Cellular Automata"**  
 _Daniele Grattarola, Lorenzo Livi, Cesare Alippi_
 
+[Paper](https://arxiv.org/abs/2110.14237) | 
+[Blog](https://danielegrattarola.github.io/posts/2021-11-08/graph-neural-cellular-automata.html)
+
+Bibtex: 
+
+```
+@inproceedings{grattarola2021learning,
+  title={Learning Graph Cellular Automata},
+  author={Grattarola, Daniele and Livi, Lorenzo and Alippi, Cesare},
+  booktitle={Neural Information Processing Systems},
+  year={2021}
+}
+```
+
 ## Setup 
 
 The dependencies of the project are listed in `requirements.txt`. You can install them with:
@@ -27,6 +41,8 @@ python [script_name].py --help
 to see a list of options.
 
 ### Voronoi GCA
+
+![](https://danielegrattarola.github.io/images/2021-11-08/voronoi.png)
 
 The experiments with the Voronoi GCA can be reproduced using the scripts in the 
 `voronoi` folder. 
@@ -50,6 +66,8 @@ python run_entropy_v_th.py
 ```
 
 ### Boids
+
+![](https://danielegrattarola.github.io/images/2021-11-08/boids_animation.gif)
 
 The experiments with the Boids GCA can be reproduced using the scripts in the 
 `boids` folder. 
@@ -78,8 +96,9 @@ To train the minimal MLP that implements the transition rule:
 python run_learn_exact_mlp.py
 ```
 
-
 ### Fixed target
+
+![](https://danielegrattarola.github.io/images/2021-11-08/clouds/Minnesota_20/anim.gif)
 
 The experiments to train the GNCA to converge to a fixed target can be 
 reproduced using the scripts in the `fixed_target` folder.
