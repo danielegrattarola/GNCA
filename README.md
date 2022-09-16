@@ -13,10 +13,12 @@ _Daniele Grattarola, Lorenzo Livi, Cesare Alippi_
 Bibtex: 
 
 ```
-@inproceedings{grattarola2021learning,
-  title={Learning Graph Cellular Automata},
+@article{grattarola2021learning,
+  title={Learning graph cellular automata},
   author={Grattarola, Daniele and Livi, Lorenzo and Alippi, Cesare},
-  booktitle={Neural Information Processing Systems},
+  journal={Advances in Neural Information Processing Systems},
+  volume={34},
+  pages={20983--20994},
   year={2021}
 }
 ```
